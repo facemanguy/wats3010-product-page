@@ -13,7 +13,17 @@
 }
 
 .paraimg1{
-    background-image: url('assets/photos/skate-park-raw.jpg');
+    background-image: url('assets/photos/skate-park-1920.jpg');
+    min-height: 20vw;
+}
+
+.paraimg2{
+    background-image: url('assets/photos/skate-girl-1920.jpg');
+    min-height: 20vw;
+}
+
+.paraimg3{
+    background-image: url('assets/photos/skate-grab-1920.jpg');
     min-height: 20vw;
 }
 
