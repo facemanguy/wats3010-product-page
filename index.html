@@ -3,22 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
         <title>API Superstore</title>
         <!-- Bootstrap CSS Framework -->
-        <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
-
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
+        <!-- You can remove the ``link`` tags below if you don't want to use Bootstrap with your site. If you choose to use Bootstrap, be sure to reference the resources and the Bootstrap official documentation: http://getbootstrap.com. -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <!-- End Bootstrap CSS Framework -->
-
+          <link rel="stylesheet" href="/main.css">
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
@@ -29,29 +22,82 @@
 
     </head>
     <body>
-        <!-- Note: If you do not see a camera icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how FontAwesome is linked to this page. -->
-        <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
-        <!-- TODO: Populate this page with all the content you deem
-             necessary to create a compelling product page! -->
+          <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+               <a class="navbar-brand" href="#">Navbar</a>
+               <ul class="nav nav-pills">
+               <li class="nav-item">
+                    <a class="nav-link" href="#fat">@fat</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#mdo">@mdo</a>
+               </li>
+               <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#one">one</a>
+                         <a class="dropdown-item" href="#two">two</a>
+                              <div role="separator" class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#three">three</a>
+                    </div>
+               </li>
+               </ul>
+          </nav>
+          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
-        <!-- TODO: Create an area to put the explainer video. -->
+          </div>
+          <!-- Note: If you do not see a camera icon in the heading below when you view this file in a web browser, then there is an issue with how FontAwesome is linked to this page. -->
+          <h1><span class="fas fa-camera-retro"></span> Hello World!</h1>
+          <!-- TODO: Populate this page with all the content you deem
+               necessary to create a compelling product page! -->
 
-        <!-- TODO: Create an area to put the long product description. -->
+          <!-- TODO: Create an area to put the explainer video. -->
+          <div class="embed-responsive embed-responsive-16by9">
+               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eQw-cPOAZ98" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div class="paraimg1">
+               <div class="ptext">
+                    <span class="border-trans">Test parallax text</span>
+                    <!--<img src="/assets/photos/skate-park-raw.jpg" class="img-fluid mx-auto" alt="First image"> -->
+               </div>
+          </div>
 
-        <!-- TODO: Create an area to put customer testimonials. -->
+          <h4 id="fat">@fat</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta reprehenderit architecto possimus sint incidunt quam corporis eligendi vero quaerat illo quae provident explicabo, nemo debitis optio omnis. Soluta, quis....</p>
+          <h4 id="mdo">@mdo</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt quam sequi ut modi perspiciatis, quos officiis! Fuga reiciendis corporis corrupti distinctio id ut! Reiciendis iure quisquam recusandae nam possimus in....</p>
+          <h4 id="one">one</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus libero sint aperiam fugit assumenda magnam vero fuga est, ducimus laboriosam. Sint aspernatur vitae non architecto. Tenetur impedit provident quidem vel....</p>
+          <h4 id="two">two</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ad, incidunt cumque autem, animi maiores consequatur temporibus quia laborum odio, veritatis aliquam est itaque corrupti sunt nobis id quam nisi....</p>
+          <h4 id="three">three</h4>
+          <p>...</p>
+          <!-- TODO: Create an area to put the long product description. -->
 
-        <!-- TODO: Create an area to show features. -->
+          <!-- TODO: Create an area to put customer testimonials. -->
 
-        <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+          <!-- TODO: Create an area to show features. -->
 
-        <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
+          <!-- TODO: Create an area to show company contact info (phone,
+               location, etc.) -->
 
-        <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+          <!-- TODO: Create an area that allows users to Share links to the
+               page. -->
+
+          <!-- TODO: Create a call to action link to get users to sign up for the
+               service. -->
+
+          <!-- Footer -->
+          <footer class="py-5 bg-dark">
+          <!-- Put the footer on every page.-->
+          <div class="container">
+            <div class="footer-flex">
+               <p class="footer-item-flex text-white">Copyright &copy; Landyachtz 2018</p>
+               <p class="footer-item-flex text-white">John Meyer</p>
+            </div>
+          </div>
+          <!-- /.container -->
+          </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
