@@ -1,6 +1,9 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+body{
+    background-color: #f3e17d;
+}
 
 .paraimg1, .paraimg2, .paraimg3{
     position: relative;
