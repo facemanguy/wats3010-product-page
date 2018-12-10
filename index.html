@@ -18,33 +18,35 @@
     </head>
 
     <body>
-          <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
-               <a class="navbar-brand" href="#"><img width="45" height="56" src="assets/logos/lyLogo.jpg"> Landyachtz</a>
-               <ul class="nav nav-pills">
-               <li class="nav-item">
-                    <a class="nav-link" href="#watch">Watch</a>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#explore">Explore</a>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#reviews">Reviews</a>
-               </li>
-               <li class="nav-item">
-                    <a class="nav-link" href="#buy">Buy</a>
-               </li>
-               <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#one">one</a>
-                         <a class="dropdown-item" href="#two">two</a>
-                              <div role="separator" class="dropdown-divider"></div>
-                         <a class="dropdown-item" href="#three">three</a>
+          <nav id="navbar-ly" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+               <div class="container-fluid">
+                         <a class="navbar-brand" href="#"><img width="45" height="56" src="assets/logos/lyLogo.jpg"> Landyachtz</a>
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                              <span class="navbar-toggler-icon"></span>               
+                         </button>
                     </div>
-               </li>
-               </ul>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                         <ul class="nav navbar-nav">
+                              <li class="dropdown">
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#watch">Watch</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#explore">Explore</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#reviews">Reviews</a>
+                                   </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link" href="#buy">Buy</a>
+                                   </li>                           
+                              </li>
+                         </ul>
+                    </div>
+               </div>
           </nav>
-          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0"></div>
+          <div data-spy="scroll" data-target="#navbar-ly" data-offset="0"></div>
           
 
           <div id="watch" class="embed-responsive embed-responsive-16by9">
@@ -53,15 +55,15 @@
 
           <div class="container-fluid">
                <div class="row align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-md-5">
                          <h1>“Making quality skateboards that will improve your life.”</h1>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-md-3">
                          <div class="thumbnail">
                               <img width="70%" src="assets/photos/skate-promo-300.jpg">
                          </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                          <p class="text-center">Check out our expansive line of skateboards, longboards, and apparel to make every day a fun day!</p>
                     </div>
                </div>
@@ -135,8 +137,8 @@
           </div>
  
           <div class="row">
-               <div class="portfolio-item col-sm-6 col-md-4">
-                    <div class="card h-100">
+               <div class="portfolio-item col-4">
+                    <div class="card h-auto">
                     <a href="#">
                     </a>
                     <div class="card-body">
@@ -148,8 +150,8 @@
                     <img class="card-img-bottom" src="assets/photos/skate-promo-300.jpg" alt="">
                     </div>
                </div>
-               <div class="portfolio-item col-sm-6 col-md-4">
-                    <div class="card h-100">
+               <div class="portfolio-item col-4">
+                    <div class="card h-auto">
                     <a href="#">
                     </a>
                     <div class="card-body">
@@ -161,8 +163,8 @@
                     <img class="card-img-bottom" src="assets/photos/skate-promo-300.jpg" alt="">
                     </div>
                </div>
-               <div class="portfolio-item col-sm-6 col-md-4">
-                    <div class="card h-100">
+               <div class="portfolio-item col-4">
+                    <div class="card h-auto">
                     <a href="#">
                     </a>
                     <div class="card-body">
@@ -176,23 +178,28 @@
                </div>
           </div>
 
-          <div class="row">
-               <div class=" col-lg-3">
-                    <img src="assets/logos/facebook.png">
-                    <a>Facebook</a>
+          <div class="row justify-content-center">
+               <div class="col-0 col-lg-1" ></div>
+               <div class="col-2 col-lg-2">
+                    <h2>Share: </h2>
                </div>
-               <div class=" col-lg-3">
-                    <img src="assets/logos/twitter.png">
-                    <a>Twitter</a>
+               <div class="col-2 col-lg-2">
+                    
+                    <a href="#" ><img src="assets/logos/facebook.png"></a>
                </div>
-               <div class=" col-lg-3">
-                    <img src="assets/logos/instagram.png">
-                    <a>Instagram</a>
+               <div class="col-2 col-lg-2">
+                    
+                    <a href="#" ><img src="assets/logos/twitter.png"></a>
                </div>
-               <div class=" col-lg-3">
-                    <img src="assets/logos/youtube.png">
-                    <a>Youtube</a>
+               <div class="col-2 col-lg-2">
+                    
+                    <a href="#" ><img src="assets/logos/instagram.png"></a>
                </div>
+               <div class="col-2 col-lg-2">
+                    
+                    <a href="#" ><img src="assets/logos/youtube.png"></a>
+               </div>
+               <div class="col-0 col-lg-1" ></div>
           </div>
 
           <!-- TODO: Create an area to put the long product description. -->
