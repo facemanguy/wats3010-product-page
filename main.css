@@ -52,3 +52,12 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.card{
+    background: radial-gradient(circle, #d53369 0%, #daae51 100%);
+}
+
+.card a{
+    text-decoration: none;
+    color: #22ff43bb;
+}
